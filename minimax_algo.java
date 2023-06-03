@@ -1,6 +1,11 @@
 
 //MiniMax algorithm for playing TicTacToe
 
+// Index reference for each move:
+   // 0 1 2
+   // 3 4 5
+   // 6 7 8
+
 package TicTacToe;
 
 import java.util.*;
@@ -206,12 +211,9 @@ class game
 }
 public class minimax_algo 
 {
-
 	public static void main(String[] args) 
 	{
 		game g=new game();
 		g.accept();
-
 	}
-
 }
